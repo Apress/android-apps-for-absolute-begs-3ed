@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    tools:context="absolute.beginners.earthtime.MainActivity" android:background="@drawable/earthtimebackground"
+    android:id="@+id/earthTime" android:layout_width="match_parent" android:layout_height="match_parent" >
+    <AnalogClock android:id="@+id/earthAnalogClock" android:background="@drawable/earthtime"
+       android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" />
+    <ImageView android:id="@+id/marsIcon" android:contentDescription="@string/marsClock" android:layout_margin="6dip"
+       android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/marsbutton" />
+    <ImageView android:id="@+id/neptuneIcon" android:contentDescription="@string/neptuneClock"
+       android:layout_margin="6dip" android:layout_gravity="right" android:src="@drawable/neptunebutton"
+       android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@+id/jupiterIcon" android:contentDescription="@string/jupiterClock"
+       android:layout_margin="6dip" android:layout_gravity="bottom" android:src="@drawable/jupiterbutton"
+       android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@+id/earthIcon" android:contentDescription="@string/earthClock"
+       android:layout_margin="6dip" android:layout_gravity="bottom|right" android:src="@drawable/earthbutton"
+       android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>
+

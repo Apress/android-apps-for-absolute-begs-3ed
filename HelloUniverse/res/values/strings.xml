@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hello Universe</string>
+    <string name="edit_galaxy">Edit Galaxy Info</string>
+    <string name="contact_galaxy">Contact Galaxy Ruler</string>
+    <string name="listRulers">List All Galaxy Rulers</string>
+    <string name="addMilkyWay">Add Milky Way Viceroy</string>
+    <string name="addAndromeda">Add Andromeda Viceroy</string>
+    <string name="addSpiral">Add Spiral Galaxy Viceroy</string>
+    <string name="returnHome">Return to Home Galaxy</string>
+    <string name="play_video">Fly Over Planet</string>
+    <string name="play_audio">Turn Audio On</string>
+    <string name="stop_audio">Turn Audio Off</string>
+    <string name="ok_button">OK</string>
+    <string name="galaxyone">Milky Way Galaxy</string>
+    <string name="galaxytwo">Andromeda Galaxy</string>
+    <string name="galaxythree">Spiral Galaxy M106</string>
+    <string name="hint_colony">Enter Number of Colonies</string>
+    <string name="hint_pop">Enter Galaxy Population</string>
+    <string name="hint_fleet">Enter Number of Fleets</string>
+    <string name="hint_ships">Enter Number of Starships</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Galaxy Information Screen</string>
+    <string name="galaxy_name">Galaxy Name:</string>
+    <string name="galaxy_solar">Galaxy Solar Systems:</string>
+    <string name="galaxy_habit">Galaxy Habitable Planets:</string>
+    <string name="galaxy_colony">Galaxy Colonies:</string>
+    <string name="galaxy_pop">Galaxy Population:</string>
+    <string name="galaxy_fleet">Galaxy Starship Fleets:</string>
+    <string name="galaxy_ships">Galaxy Active Starships:</string>
+    <string name="name_data">My Galaxy</string>
+    <string name="solar_data">0</string>
+    <string name="habit_data">0</string>
+    <string name="colony_data">0</string>
+    <string name="pop_data">0</string>
+    <string name="fleet_data">0</string>
+    <string name="ships_data">0</string>
+</resources>

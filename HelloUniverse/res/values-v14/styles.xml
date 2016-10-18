@@ -1,0 +1,10 @@
+<resources>
+    <!--
+        Base application theme, for API 14 and later devices. This theme
+        completely replaces AppBaseTheme from BOTH res/values/styles.xml
+        as well as res/values-v11/styles.xml when run on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 14 and later theme customizations can go in here. -->
+    </style>
+</resources>

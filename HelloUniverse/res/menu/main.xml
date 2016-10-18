@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/edit_galaxy"
+          android:orderInCategory="100"
+          android:showAsAction="never"
+          android:title="@string/edit_galaxy" />
+    <item android:id="@+id/contact_galaxy"
+          android:orderInCategory="200"
+          android:showAsAction="never"
+          android:title="@string/contact_galaxy" />
+    <item android:id="@+id/play_video"
+          android:orderInCategory="300"
+          android:showAsAction="never"
+          android:title="@string/play_video" />
+    <item android:id="@+id/action_settings"
+          android:orderInCategory="400"
+          android:showAsAction="never"
+          android:title="@string/action_settings" />
+</menu>

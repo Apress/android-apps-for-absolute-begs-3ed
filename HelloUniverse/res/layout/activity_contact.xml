@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent" android:layout_height="match_parent" >
+   <Button android:id="@+id/listRulers" android:text="@string/listRulers" />
+   <Button android:id="@+id/addMilkyWay" android:text="@string/addMilkyWay" />
+   <Button android:id="@+id/addAndromeda" android:text="@string/addAndromeda" />
+   <Button android:id="@+id/addSpiral" android:text="@string/addSpiral" />
+   <Button android:id="@+id/returnHome" android:text="@string/returnHome" />
+</TableLayout>

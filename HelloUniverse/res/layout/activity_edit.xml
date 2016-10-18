@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/gridLayout"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/editgalaxyscreen" android:orientation="vertical"
+    android:columnCount="2" android:rowCount="5" android:useDefaultMargins="true" >
+  <AnalogClock android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:layout_row="0" android:layout_column="0" android:layout_columnSpan="2"
+    android:layout_gravity="center_horizontal" />
+  <EditText android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:id="@+id/edit_colony" android:hint="@string/hint_colony" android:layout_row="1"
+    android:textColorHint="#FFFFFF" android:textColor="#FFFFFF" android:layout_column="0"
+    android:layout_gravity="right" />
+  <EditText android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:id="@+id/edit_pop" android:hint="@string/hint_pop" android:layout_row="2"
+    android:textColor="#FFFFFF" android:textColorHint="#FFFFFF" android:layout_column="0"
+    android:layout_gravity="right" />
+  <EditText android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:id="@+id/edit_fleet" android:hint="@string/hint_fleet" android:layout_row="3"
+    android:textColor="#FFFFFF" android:textColorHint="#FFFFFF" android:layout_column="0"
+    android:layout_gravity="right" />
+  <EditText android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:id="@+id/edit_ships" android:hint="@string/hint_ships" android:layout_row="4"
+    android:textColor="#FFFFFF" android:textColorHint="#FFFFFF" android:layout_column="0"
+    android:layout_gravity="right" />
+  <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:layout_column="1" android:layout_row="1" android:id="@+id/submit_colony"
+    android:text="@string/ok_button" android:textColor="#FFFFFF" />
+  <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:layout_column="1" android:layout_row="2" android:id="@+id/submit_pop"
+    android:text="@string/ok_button" android:textColor="#FFFFFF" />
+  <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:layout_column="1" android:layout_row="3" android:id="@+id/submit_fleet"
+    android:text="@string/ok_button" android:textColor="#FFFFFF" />
+  <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:layout_column="1" android:layout_row="4" android:id="@+id/submit_ships"
+    android:text="@string/ok_button" android:textColor="#FFFFFF" />
+</GridLayout>

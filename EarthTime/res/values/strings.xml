@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EarthTime</string>
+    <string name="marsClock">Use Mars Clock on Smartwatch</string>
+    <string name="earthClock">Use Earth Clock on Smartwatch</string>
+    <string name="neptuneClock">Use Neptune Clock on Smartwatch</string>
+    <string name="jupiterClock">Use Jupiter Clock on Smartwatch</string>
+    <string name="action_settings">Settings</string>
+</resources>
